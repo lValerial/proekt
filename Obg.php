@@ -141,7 +141,7 @@ class chain // 5 объект чайник
         return"{$this->manufacturer}" . "{$this->capacity}" ;
     }
 }
-$chain = new chain("Boch", 3);
+$chain = new chain("Bosch", 3);
 echo "Производитель -" . $chain->getManufacturer();
 echo "<br>";
 echo "Вместимость(л.)-" . $chain->getCapacity();
