@@ -29,10 +29,10 @@ function __construct($size,$manufacturer)
     }
 
 }
-$window = new window(90.60, "VEKA");
-echo "Размер -" . $window->getSize();
+$window = new window(90.60, 'VEKA');
+echo 'Размер -' . $window->getSize();
 echo "<br>";
-echo "Производитель -" . $window->getManufacturer();
+echo 'Производитель -' . $window->getManufacturer();
 
 
 
@@ -58,10 +58,10 @@ class painting // 2 объект картина
         return"{$this->size}" . "{$this->image}" ;
     }
 }
-$painting = new painting(30.40, "dog");
-echo "Размер -" . $painting->getSize();
+$painting = new painting(30.40, 'dog');
+echo 'Размер -' . $painting->getSize();
 echo "<br>";
-echo "Изображение -" . $painting->getImage();
+echo 'Изображение -' . $painting->getImage();
 
 class thermos // 3 объект термос
 {
@@ -85,10 +85,10 @@ class thermos // 3 объект термос
         return"{$this->manufacturer}" . "{$this->capacity}" ;
     }
 }
-$thermos = new thermos("Stanley", 1.5);
-echo "Производитель -" . $thermos->getManufacturer();
+$thermos = new thermos('Stanley', 1.5);
+echo 'Производитель -' . $thermos->getManufacturer();
 echo "<br>";
-echo "Вместимость(л.)-" . $thermos->getCapacity();
+echo 'Вместимость(л.)-' . $thermos->getCapacity();
 
 class electric_toothbrush // 4 объект электрическая зубная щетка
 {
@@ -112,10 +112,10 @@ class electric_toothbrush // 4 объект электрическая зубн�
         return"{$this->manufacturer}" . "{$this->cord220}" ;
     }
 }
-$electric_toothbrush= new electric_toothbrush ("Oral-B", "there is");
-echo "Производитель -" . $electric_toothbrush->getManufacturer();
+$electric_toothbrush= new electric_toothbrush ('Oral-B', 'there is');
+echo 'Производитель -' . $electric_toothbrush->getManufacturer();
 echo "<br>";
-echo "Наличие шнура 220-" . $electric_toothbrush->getCord220();
+echo 'Наличие шнура 220-' . $electric_toothbrush->getCord220();
 
 class chain // 5 объект чайник
 {
@@ -141,7 +141,7 @@ class chain // 5 объект чайник
         return"{$this->manufacturer}" . "{$this->capacity}" ;
     }
 }
-$chain = new chain("Bosch", 3);
-echo "Производитель -" . $chain->getManufacturer();
+$chain = new chain('Bosch', 3);
+echo 'Производитель -' . $chain->getManufacturer();
 echo "<br>";
-echo "Вместимость(л.)-" . $chain->getCapacity();
+echo 'Вместимость(л.)-' . $chain->getCapacity();
